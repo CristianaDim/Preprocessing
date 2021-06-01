@@ -16,7 +16,7 @@ clear subjDirTemp
 
 nregion = 94;
 
-for i = 25:numel(subjDir)
+for i = 1:numel(subjDir)
     
     pn.seed = sprintf('%s%s/DTI/G_ProbtrackX',pn.subj,subjDir(i).name);
     seedDirTemp = dir(pn.seed);
